@@ -1,0 +1,7 @@
+# commands:
+cd backend/
+ls
+mkdir commandLine
+touch commandLine/message.txt
+ls commandLine/
+added this line as appended text with: $  cat {{txt}} >> message.txt
