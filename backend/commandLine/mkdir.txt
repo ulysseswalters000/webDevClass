@@ -1,0 +1,9 @@
+# basic notes on mkdir
+# makes a directory
+mkdir {{directory name}}
+
+# useful to make subfolders from parent command
+mkdir -p /parent/child/etc...
+
+# see man pages for further use
+man mkdir
