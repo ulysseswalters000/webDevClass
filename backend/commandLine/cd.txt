@@ -1,0 +1,16 @@
+# notes on cd
+# cd changes directory
+# by itself, it will change the directory to the users home directory
+cd
+
+# .. refers to the directory above current dir
+cd ..
+
+# use absolute or relative paths to jump around filesystem
+cd /usr/lib/
+
+# ~/ is a shortcut for /home/{{user}}
+cd ~/Downloads
+
+# read man pages for further invocations
+man cd
