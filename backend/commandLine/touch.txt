@@ -1,0 +1,11 @@
+# basic notes on touch command
+# creates files
+touch {{filename}}
+
+# vARIOUS INVOCATIONS CAN BE USED
+# dont create a file
+touch -c
+
+# can modify dates and times
+#see man pages for more info
+man touch
