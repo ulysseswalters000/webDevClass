@@ -1,0 +1,17 @@
+# brief notes on ls
+ls
+
+# lists the dirs/files/etc in the current dirs
+
+# pass flag options for various things
+# long format
+ls -l
+
+# lists all files including hideen
+ls -a
+
+# lists size of files in human readable format
+ls -h
+
+# for more invocations see man pages
+man ls
