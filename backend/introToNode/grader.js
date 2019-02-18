@@ -4,7 +4,7 @@ function average(array){
   for( var i = 0; i < numOfScores; i++ ){
     sum += array[i];
   }
-  console.log( Math.round( sum / numOfScores ));
+  return Math.round( sum / numOfScores );
 }
 const scores = [ 98, 90, 89, 100, 100, 86, 94];
 average(scores);

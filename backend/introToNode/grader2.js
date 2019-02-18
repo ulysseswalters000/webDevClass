@@ -3,7 +3,7 @@ function average(array){
   array.forEach( (score) => {
     sum += score;
   });
-  console.log( Math.round( sum / array.length ));
+  return Math.round( sum / array.length );
 }
 const scores = [ 98, 90, 89, 100, 100, 86, 94];
 average(scores); // should evaluate to 94
