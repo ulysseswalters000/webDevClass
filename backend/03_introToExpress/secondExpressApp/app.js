@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 app.get('/speak/:animal', (req, res) => {
   // stores parameter in mutable variable
-  let animal = req.params.animal;
+  let animal = req.params.animal.toLowerCase();
   // sends the return value of speak when passed param val
   res.send(speak(animal));
 
