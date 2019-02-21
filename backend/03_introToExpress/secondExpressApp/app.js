@@ -38,9 +38,14 @@ app.get('/speak/:animal', (req, res) => {
 });
 
 app.get('/repeat/:word/:nTimes', (req, res) => {
+  // set req parameters to variables
   let repeatedWord = req.params.word;
   let numTimes = parseInt(req.params.nTimes);
+
+  // send the desired output to user based on input
   res.send(repeater(repeatedWord, numTimes));
+
+  // function that accumulates a string to repeat a word n times
   function repeater(word, times) {
     let str = ``;
     for(let i = 0; i < times; i++) {
