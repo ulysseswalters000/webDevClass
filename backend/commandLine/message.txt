@@ -1,7 +1,19 @@
 # commands:
+
+# changes directiory to backend/ from current directory
 cd backend/
+
+# lists the contents of the current folder
 ls
+
+# makes a new directory in current directory titled commandLine
 mkdir commandLine
+
+# creates a new file in the specified directory
 touch commandLine/message.txt
+
+# lists the  contents of commandline
 ls commandLine/
-added this line as appended text with: $  cat {{txt}} >> message.txt
+
+# the line below was added from a terminal using the cat command
+# added this line as appended text with: $  cat {{txt}} >> message.txt
