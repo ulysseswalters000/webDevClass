@@ -1,3 +1,7 @@
-<h1>You fell in love with: <%= thing %> </h1>
-
-<p>P.S. This is love.ejs file</p>
+<%- include partials/header %>
+  <h1>You fell in love with: <%= thing %> </h1>
+  <% if (thing.toUpperCase() === 'RUSTY') { %>
+    <p>Good Choice! Rusty is the best</p>
+  <% } %>
+  <p>P.S. This is love.ejs file</p>
+<%- include partials/footer %>

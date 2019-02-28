@@ -1,0 +1,13 @@
+<%- include partials/header %>
+  <h1>The posts page</h1>
+  <% posts.forEach(post => { %>
+    <h1>
+      <%= post.title %>
+    </h1>
+    <p>
+      <strong>
+        <%= post.author %>
+      </strong>
+    </p>
+  <% }); %>
+<%- include partials/footer %>
